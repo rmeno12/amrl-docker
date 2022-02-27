@@ -1,4 +1,4 @@
-FROM nvidia/cudagl:11.4.2-base-ubuntu20.04 AS base
+FROM nvidia/cuda:11.5.1-cudnn8-devel-ubuntu20.04 AS base
 
 # Set up time zone so things don't ask for it
 ENV TZ=America/Chicago
